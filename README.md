@@ -34,11 +34,13 @@ The calculation logic changes when two dates are specified. In this case, weeken
 
 2. Build the project with Gradle:
 
-gradle clean install
+   ```bash
+   gradle clean install
 
 3. Run the application:
-
-gradle spring-boot:run
+   
+   ```bash
+   gradle spring-boot:run
 
 ### Testing
 JUnit 5 is used for testing business logic. Example tests are in the VacationServiceTest class.
